@@ -4,9 +4,10 @@ import './style.css'
 import Slider1 from '../../../assets/images/banner1.png'
 import Slider2 from '../../../assets/images/banner2.png'
 import Slider3 from '../../../assets/images/banner3.png'
+
 export default function SimpleSlider() {
     var settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 1,

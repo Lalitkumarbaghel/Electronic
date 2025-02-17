@@ -1,0 +1,113 @@
+.heading{
+    padding-bottom: 20px;
+  
+  }
+  .heading h4{
+    position: relative;
+  }
+  .heading h4::after {
+      content: '';
+      position: absolute;
+      width: 55px;
+      height: 4px;
+      background: #0062bd;
+      bottom: -4px;
+      transform: translate(-25px, 0);
+      -webkit-transform: translate(-25px, 0);
+      -moz-transform: translate(-25px, 0);
+      -o-transform: translate(-25px, 0);
+  }
+  .cat_avtar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 7px;
+      border-right: 1px solid #f1f1f1;
+      position: relative;
+  }
+  .cat_avtar .cat_img{
+    width: 135px;
+  }
+  .cat_avtar .cat_img .img{
+    width: 100%;
+    height: 125px;
+  }
+  
+  .cat_avtar .cat_img .img img{
+    width: 100%;
+    height: 130px;
+    object-fit: scale-down;
+  }
+  .cat_avtar .cat_cntnt{
+    width: 90%;
+    margin-left: 15px;
+  }
+  .cat_avtar .cat_cntnt a{
+    text-decoration: none;
+      font-weight: 500;
+      font-size: 15px;
+      color: #0062bd
+  }
+  .cat_avtar .cat_cntnt a:hover{
+    color: #333;
+    text-decoration: underline;
+  }
+  .cat_avtar .cat_cntnt h6{
+    font-size: 17px;
+      padding-top: 7px;
+  }
+  .cat_avtar:hover  .cat_cntnt .btn.add_btn{
+    background: #0062bd;
+  }
+  
+  button.btn.add_btn {
+      position: absolute;
+      bottom: 5px;
+      right: 10px;
+      background: #f1f1f1;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      display: block;
+      margin: 0 auto;
+  }
+  button.btn.add_btn i{
+    color: #fff;
+  }
+  .cat2 {
+      background: #f7f7f7;
+      padding: 10px;
+      border-radius: 7px;
+  }
+  .cat2 a{
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+  .cat2 h6{
+    color: #155724;
+  }
+
+  .cat2 {
+    background: #f7f7f7;
+    padding: 10px;
+    border-radius: 7px;
+}
+.cat2 a{
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+.cat2 h6{
+  color: #155724;
+}
+.cat2_cntnt img{
+  width: 100%;
+} 
+.homeSub .slick-slide {
+  padding-left: 10px !important;
+}
+.cat2_cntnt p{
+  margin: 0;
+}

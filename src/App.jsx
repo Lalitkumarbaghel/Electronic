@@ -6,6 +6,7 @@ import Home from './pages/home/index'
 import AboutUs from './pages/about/about'
 import Cart from './pages/cart/cart'
 import Deatils from './componets/Details'
+import Footer from './componets/footer/footer'
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
         <Route exact={true} path='/cart' element={<Cart/>} />
         <Route exact={true} path='/products/details' element={<Deatils/>} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
