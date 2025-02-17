@@ -9,6 +9,7 @@ import Deatils from './componets/Details'
 import Footer from './componets/footer/footer'
 import Login from './pages/login'
 import SignUp from './pages/signup'
+import OTP from './pages/otp'
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ function App() {
         <Route exact={true} path='/products/details' element={<Deatils/>} />
         <Route exact={true} path='/login' element={<Login/>} />
         <Route exact={true} path='/signup' element={<SignUp/>} />
+        <Route exact={true} path='/otp' element={<OTP/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
