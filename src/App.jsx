@@ -11,6 +11,7 @@ import Login from './pages/login'
 import SignUp from './pages/signup'
 import OTP from './pages/otp'
 import ErrorPage from './pages/404error'
+import ThankYou from './pages/thankYou'
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +25,7 @@ function App() {
         <Route exact={true} path='/signup' element={<SignUp/>} />
         <Route exact={true} path='/otp' element={<OTP/>} />
         <Route exact={true} path='/404-error' element={<ErrorPage/>} />
+        <Route exact={true} path='/thankyou' element={<ThankYou/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
