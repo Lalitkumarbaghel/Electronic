@@ -10,6 +10,7 @@ import Footer from './componets/footer/footer'
 import Login from './pages/login'
 import SignUp from './pages/signup'
 import OTP from './pages/otp'
+import ErrorPage from './pages/404error'
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
         <Route exact={true} path='/login' element={<Login/>} />
         <Route exact={true} path='/signup' element={<SignUp/>} />
         <Route exact={true} path='/otp' element={<OTP/>} />
+        <Route exact={true} path='/404-error' element={<ErrorPage/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
