@@ -4,6 +4,7 @@ import './style.css'
 import Slider1 from '../../../assets/images/banner1.png'
 import Slider2 from '../../../assets/images/banner2.png'
 import Slider3 from '../../../assets/images/banner3.png'
+import { Link } from "react-router-dom";
 
 export default function SimpleSlider() {
     var settings = {
@@ -19,13 +20,19 @@ export default function SimpleSlider() {
             <div className="container-fuild">
       <Slider {...settings}>
         <div>
-          <img src={Slider1} className="img-fluid" />
+          <Link to="/products">
+            <img src={Slider1} className="img-fluid" />
+          </Link>
         </div>
         <div>
-        <img src={Slider2} className="img-fluid" />
+        <Link to="/products">
+          <img src={Slider2} className="img-fluid" />
+          </Link>
         </div>
         <div>
-        <img src={Slider3} className="img-fluid" />
+        <Link to="/products">
+          <img src={Slider3} className="img-fluid" />
+        </Link>
         </div>
         
       </Slider>

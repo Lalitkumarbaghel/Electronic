@@ -6,6 +6,7 @@ import Cat2 from '../../../assets/images/img2.jpg'
 import Cat3 from '../../../assets/images/img3.jpg'
 import Cat4 from '../../../assets/images/img4.jpg'
 import Cat5 from '../../../assets/images/img5.jpg'
+import { Link } from "react-router-dom";
 export default function TopCat() {
     var settings = {
         dots: false,
@@ -36,59 +37,59 @@ export default function TopCat() {
       <Slider {...settings}>
                 <div>
                     <div className="top_cat_cntnt">
-				    		<a href="innerpage.html">
+                    <Link to="/products">
 				    		<img src={Cat1} />
 				    			<p>Laptop</p>
-				    		</a>
+				    		</Link>
 				    	</div>
 
                 </div>
                 <div>
                     <div className="top_cat_cntnt">
-				    		<a href="innerpage.html">
+                    <Link to="/products">
 				    		<img src={Cat2} />
 				    			<p>Laptop</p>
-				    		</a>
+				    		</Link>
 				    	</div>
                     </div>
                 <div>
                 <div className="top_cat_cntnt">
-				    		<a href="innerpage.html">
+				    		<Link to="/products">
 				    		<img src={Cat3} />
 				    			<p>Laptop</p>
-				    		</a>
+				    		</Link>
 				</div>
             </div>
             <div>
                 <div className="top_cat_cntnt">
-				    		<a href="innerpage.html">
+				    		<Link to="/products">
 				    		<img src={Cat4} />
 				    			<p>Laptop</p>
-				    		</a>
+				    		</Link>
 				</div>
             </div>
             <div>
                 <div className="top_cat_cntnt">
-				    		<a href="innerpage.html">
+				    		<Link to="/products">
 				    		<img src={Cat5} />
 				    			<p>Laptop</p>
-				    		</a>
+				    		</Link>
 				</div>
             </div>
             <div>
                 <div className="top_cat_cntnt">
-				    		<a href="innerpage.html">
+				    		<Link to="/products">
 				    		<img src={Cat3} />
 				    			<p>Laptop</p>
-				    		</a>
+				    		</Link>
 				</div>
             </div>
             <div>
                 <div className="top_cat_cntnt">
-				    		<a href="innerpage.html">
+				    		<Link to="/products">
 				    		<img src={Cat2} />
 				    			<p>Laptop</p>
-				    		</a>
+				    		</Link>
 				</div>
             </div>
         
