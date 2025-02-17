@@ -7,6 +7,8 @@ import AboutUs from './pages/about/about'
 import Cart from './pages/cart/cart'
 import Deatils from './componets/Details'
 import Footer from './componets/footer/footer'
+import Login from './pages/login'
+import SignUp from './pages/signup'
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +18,8 @@ function App() {
         <Route exact={true} path='/about' element={<AboutUs/>} />
         <Route exact={true} path='/cart' element={<Cart/>} />
         <Route exact={true} path='/products/details' element={<Deatils/>} />
+        <Route exact={true} path='/login' element={<Login/>} />
+        <Route exact={true} path='/signup' element={<SignUp/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -41,7 +41,7 @@ const Header = ()=>{
 	    </div>
       <ul className="navbar-nav navbar_nav">
         <li className="nav-item">
-          <a className="nav-link"  href="#"><span><i className="fa-regular fa-user"></i></span> Login</a>
+          <Link className="nav-link" to='/login'><span><i className="fa-regular fa-user"></i></span> Login</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#"><span><i className="fa-solid fa-cart-shopping"></i></span> Cart</a>
