@@ -6,6 +6,7 @@ import Home from './pages/home/index'
 import AboutUs from './pages/about/about'
 import Cart from './pages/cart/cart'
 import Deatils from './componets/Details'
+import Products from './pages/product'
 import Footer from './componets/footer/footer'
 import Login from './pages/login'
 import SignUp from './pages/signup'
@@ -21,6 +22,7 @@ function App() {
         <Route exact={true} path='/about' element={<AboutUs/>} />
         <Route exact={true} path='/cart' element={<Cart/>} />
         <Route exact={true} path='/products/details' element={<Deatils/>} />
+        <Route exact={true} path='/products' element={<Products/>} />
         <Route exact={true} path='/login' element={<Login/>} />
         <Route exact={true} path='/signup' element={<SignUp/>} />
         <Route exact={true} path='/otp' element={<OTP/>} />

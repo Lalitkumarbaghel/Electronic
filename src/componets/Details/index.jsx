@@ -18,7 +18,7 @@ const Deatils = ()=>{
       
 };
 const Goto = (index)=>{
-    zoomSlider.current.slick
+    //zoomSlider.current.slick
 }
 Goto();
 
@@ -51,19 +51,19 @@ Goto();
                     </div>
                 <div>
                 <div className="top_cat_cntnt">
-				    		<img src={Cat3}  onClick={()=> Goto(2)}/>
+				    		{/* <img src={Cat3}  onClick={()=> Goto(2)}/> */}
 				    			
 				</div>
             </div>
             <div>
                 <div className="top_cat_cntnt">
-				    		<img src={Cat4} onClick={()=> Goto(3)}/>
+				    		{/* <img src={Cat4} onClick={()=> Goto(3)}/> */}
 				    			
 				</div>
             </div>
             <div>
                 <div className="top_cat_cntnt">
-				    		<img src={Cat5} onClick={()=> Goto(4)}/>
+				    		{/* <img src={Cat5} onClick={()=> Goto(4)}/> */}
 				    			
 				</div>
             </div>
